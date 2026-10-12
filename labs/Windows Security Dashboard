@@ -1,0 +1,57 @@
+# Lab 3 — Host-Based Security
+
+## Exercise 1: Windows Security Dashboard
+
+**Platform:** Windows 11 Virtual Machine  
+**Category:** Endpoint Security  
+**Difficulty:** Beginner to Intermediate  
+**Tools:** Windows Security, Microsoft Defender Antivirus
+
+### Objective
+
+Explore the Windows Security dashboard, check antivirus real-time protection, and identify the active network profiles.
+
+### Procedure
+
+1. Start the Windows 11 virtual machine.
+2. Sign in using the lab account.
+3. Press the Windows key and type `Windows Security`.
+4. Open Windows Security.
+5. Select **Virus & threat protection**.
+6. Record whether real-time protection is enabled.
+7. Return to the main Windows Security dashboard.
+8. Select **Firewall & network protection**.
+9. Record which network profiles are active.
+
+### Findings
+
+- **Real-time protection:** [Record your actual result]
+- **Domain network profile:** [Active / Inactive / Not shown]
+- **Private network profile:** [Active / Inactive / Not shown]
+- **Public network profile:** [Active / Inactive / Not shown]
+
+### Security Concepts Learned
+
+- Endpoint security helps protect individual computers from malware and other threats.
+- Real-time antivirus protection monitors files and activities for potential threats.
+- Network profiles help determine which firewall settings apply to a connection.
+- Security controls should be inspected and verified rather than assumed to be enabled.
+
+### Evidence
+
+Add screenshots showing:
+
+1. The Virus & threat protection page and its real-time protection status.
+2. The Firewall & network protection page and its network profiles.
+
+Store screenshots in an `evidence` folder and reference them here after uploading.
+
+### Reflection
+
+[Explain what you observed, what surprised you, and how these controls help protect a Windows endpoint.]
+
+### Lab Status
+
+In progress — findings and screenshots will be added after completing the exercise.
+
+**Note:** Results must reflect observations from your own lab environment. Do not assume that a security setting is enabled without checking it.
