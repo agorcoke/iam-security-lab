@@ -1,0 +1,50 @@
+# Lab 3 — Exercise 3: Event Viewer — Investigate a Logon
+
+## Objective
+Investigate Windows Security event logs to identify successful or failed logon activity and understand how logs help cybersecurity analysts investigate incidents.
+
+## Lab Environment
+- Operating system: Windows 11 Virtual Machine
+- Tool: Windows Event Viewer
+- Log location: Windows Logs → Security
+- Focus: Authentication and security monitoring
+
+## Procedure
+1. Press **Windows + R**.
+2. Type `eventvwr.msc` and press Enter.
+3. Expand **Windows Logs** in the left-hand panel.
+4. Click **Security**.
+5. Wait for the event list to populate.
+6. Select a recent event representing a successful or failed logon, if present.
+7. Open the **General** tab.
+8. Record the event ID, timestamp, account information, and description when available.
+
+## Common Logon Event IDs
+- **4624:** Successful logon.
+- **4625:** Failed logon.
+
+These are common Windows Security event IDs. Verify the ID and event description in your own environment.
+
+## Findings
+- Event ID: [Enter observed ID]
+- Date and time: [Enter observed timestamp]
+- Account: [Enter observed account information, if available]
+- Result: [Successful / Failed / Other]
+- Description: [Summarize the General tab]
+- Analysis: [Explain what the event indicates]
+
+## Security Analysis
+Windows Security logs provide evidence of authentication activity. Analysts can use event IDs, timestamps, account information, and related events to investigate unusual login attempts.
+
+A failed logon alone does not prove an attack. Additional context is needed to determine whether an event is suspicious.
+
+## Evidence
+Save a screenshot of the selected event and its General tab. Remove or obscure sensitive information before publishing screenshots.
+
+Suggested filename: `event-viewer-logon-event.png`
+
+## Reflection
+[Describe what you learned about Windows logon auditing and how event logs help security analysts investigate incidents.]
+
+## Lab Status
+In progress — findings and evidence must be added after completing the investigation in the Windows 11 virtual machine.
