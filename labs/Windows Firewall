@@ -1,0 +1,69 @@
+# Lab 3 — Exercise 2: Windows Firewall
+
+## 1. Objective
+
+Inspect Microsoft Defender Firewall settings and examine inbound firewall rules on a Windows 11 virtual machine.
+
+## 2. Lab Environment
+
+- **Operating system:** Windows 11 Virtual Machine
+- **Tool:** Windows Security
+- **Advanced tool:** Windows Defender Firewall with Advanced Security
+- **Category:** Host-Based Security
+
+## 3. Procedure
+
+1. Open Windows Security.
+2. Click **Firewall & network protection**.
+3. Open the active network profile.
+4. Record whether Microsoft Defender Firewall is on.
+5. Do not disable the firewall.
+6. Open **Advanced settings**. Alternatively, press Windows + R, type `wf.msc`, and press Enter.
+7. Click **Inbound Rules** in the left-hand panel.
+8. Identify three inbound rules by name.
+9. Select one rule and record whether it is enabled and which program or service it relates to.
+10. Record your observations and take screenshots for evidence.
+
+## 4. Firewall Status
+
+- **Active network profile:** [Enter observed profile]
+- **Microsoft Defender Firewall:** [On / Off]
+- **Date of observation:** [Enter date]
+
+## 5. Inbound Rule Investigation
+
+| Rule name | Enabled? | Program or service |
+|---|---|---|
+| Rule 1: [Enter actual name] | [Yes / No] | [Enter details] |
+| Rule 2: [Enter actual name] | [Yes / No] | [Enter details] |
+| Rule 3: [Enter actual name] | [Yes / No] | [Enter details] |
+
+Use the actual rule names and statuses shown in your virtual machine.
+
+## 6. Checkpoint: Inbound vs. Outbound Rules
+
+Inbound rules control network traffic coming into a computer. Outbound rules control network traffic leaving the computer. Both help determine which connections Windows Firewall permits or blocks.
+
+## 7. Security Analysis
+
+Firewall rules help control network communication and reduce unauthorized access. An analyst should inspect the rule's direction, enabled status, program or service, and applicable network profiles before determining whether it is appropriate.
+
+An enabled rule does not automatically indicate a security risk, and a disabled rule is not automatically a problem.
+
+## 8. Evidence
+
+Save screenshots showing:
+
+- The active firewall profile and firewall status.
+- Three inbound rules and their names.
+- The details of one selected inbound rule.
+
+Suggested folder: `evidence/`
+
+## 9. Reflection
+
+[Describe what you learned about firewall profiles, inbound rules, and how firewall policies help protect an endpoint.]
+
+## 10. Lab Status
+
+In progress — replace the placeholders with observations from the actual lab environment before presenting this exercise as completed.
